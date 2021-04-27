@@ -6,8 +6,9 @@ use cases though.
 At its core, it's minimalistic; it doesn't rely on monolithic libraries such e.g
 jquery, bootstrap. Instead, it uses *grid css*, *flexbox* & *vanilla js* to
 facilitate the `features` outlined below:
+Forked from https://github.com/onweru/hugo-swift-theme :)
 
-![Hugo Swift Theme](https://github.com/onweru/hugo-swift-theme/blob/master/images/screenshot.png)
+![Hugo Swift Theme](https://github.com/eladyarom/hugo-swift-theme/blob/master/images/screenshot.png)
 
 ## Features
 
@@ -30,7 +31,7 @@ This theme uses `sass`. Ensure you have the [extended version of hugo](https://g
 Add this theme as a Git submodule inside your Hugo site folder:
 
 ```bash
-git submodule add https://github.com/onweru/hugo-swift-theme.git themes/hugo-swift-theme
+git submodule add https://github.com/eladyarom/hugo-swift-theme.git themes/hugo-swift-theme
 ```
 
 ## Configuration
@@ -46,19 +47,19 @@ You can configure the site using as follows:
 
     > Follow the `exampleSite/`.
 3. Customize Theme colors
-    You can do so easily in the [variables sass partial](https://github.com/onweru/hugo-swift-theme/blob/e5af8a1414cd8e1ec5a0817f8e5eb8c8c98e2676/assets/sass/_variables.sass#L13-L21). Use names (e.g red, blue, darkgoldenrod), rgb, rgba, hsla or hex values.
+    You can do so easily in the [variables sass partial](https://github.com/elasyarom/hugo-swift-theme/blob/e5af8a1414cd8e1ec5a0817f8e5eb8c8c98e2676/assets/sass/_variables.sass#L13-L21). Use names (e.g red, blue, darkgoldenrod), rgb, rgba, hsla or hex values.
 
 ## Staticman Comments
 
 By default, [Staticman](https://staticman.net) comments are disabled.
 To enable them, you may refer to the
-[Staticman config Wiki](https://github.com/onweru/hugo-swift-theme/wiki/staticman-config).
+[Staticman config Wiki](https://github.com/eladyarom/hugo-swift-theme/wiki/staticman-config).
 
 ## Written By Block
 
 ### How do I include a `written by` ?
 
-  1. Copy [this authors yaml file](https://github.com/onweru/hugo-swift-theme/blob/master/exampleSite/data/authors.yml) from the `exampleSite` into your sites `./data` directory.
+  1. Copy [this authors yaml file](https://github.com/eladyarom/hugo-swift-theme/blob/master/exampleSite/data/authors.yml) from the `exampleSite` into your sites `./data` directory.
 
   ```toml
     [[params.authors]]
@@ -99,7 +100,7 @@ Today most operating systems & browsers support dark mode. Like twitter, which
 automatically turns into dark mode when the user chooses darkmode, this theme
 does the same thing.
 
-![Dark Mode](https://github.com/onweru/hugo-swift-theme/blob/master/images/darkmode.jpg)
+![Dark Mode](https://github.com/eladyarom/hugo-swift-theme/blob/master/images/darkmode.jpg)
 
 ## Custom Shortcodes
 
@@ -143,4 +144,4 @@ This theme ships with two custom shortcodes (they both use positional parameters
 ## License
 
 The code is available under the
-[MIT license](https://github.com/onweru/hugo-swift-theme/blob/master/LICENSE.md).
+[MIT license](https://github.com/eladyarom/hugo-swift-theme/blob/master/LICENSE.md).
